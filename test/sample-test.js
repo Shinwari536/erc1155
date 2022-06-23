@@ -194,7 +194,7 @@ describe("GameItems Contract", function () {
             ethers.BigNumber.from(100),
             ethers.BigNumber.from(10000),
           ],
-          "0x00"
+          "0x00" 
         )
       ).to.be.revertedWith(
         "ERC1155: transfer caller is not owner nor approved"
